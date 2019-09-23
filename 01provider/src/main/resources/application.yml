@@ -1,0 +1,9 @@
+server:
+  port: 10001
+spring:
+  datasource:
+    url: jdbc:mysql:///db_shopping
+    data-username: root
+    data-password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
